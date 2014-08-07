@@ -14,7 +14,6 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
 http://www.mulesoft.org/schema/mule/ee/data-mapper http://www.mulesoft.org/schema/mule/ee/data-mapper/current/mule-data-mapper.xsd">
     <smtp:gmail-connector name="Gmail" validateConnections="true" doc:name="Gmail"/>
     <db:generic-config name="MySQL_Configuration" url="jdbc:mysql://localhost:3306/company?user=generatedata&amp;password=generatedata" driverClassName="com.mysql.jdbc.Driver" doc:name="Generic Database Configuration"/>
-    <context:property-placeholder location="common.properties"/>
     <data-mapper:config name="List_Map__To_CSV" transformationGraphPath="list_map__to_csv.grf" doc:name="List_Map__To_CSV"/>
     <flow name="attachmentsFlow1" doc:name="attachmentsFlow1">
         <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8081" doc:name="Recieve HTTP requests"/>

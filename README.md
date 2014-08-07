@@ -11,8 +11,8 @@ Step 5: make a POST request using postman and following xml:
 <root>
     <employees>
         <employee>Chava Puckett</employee>
-        <employee>Neil Ford</employee>
-        <employee>Daryl Wolfe</employee>
+        <employee>Quentin Puckett</employee>
+        <employee>Mona Sosa</employee>
     </employees>
 </root>
 
